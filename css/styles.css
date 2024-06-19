@@ -1,0 +1,117 @@
+/* comentario */
+
+*{
+margin: 0;
+padding: 0 ;
+box-sizing: border-box
+}
+
+@font-face {
+    font-family: "valorant-font";
+    src: url(../fonts/valorant-font.ttf);
+}
+
+header{
+    background-color: #0f1923;
+}
+
+p{
+    color: #0f1923;
+    font-family: monospace;
+    font-size: 16px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ece8e1;
+}
+
+h1{
+    color: #ece8e1;
+    font-size: 80px;
+    text-align: center;
+    padding: 1rem;
+    font-family: "valorant-font";
+}
+
+h2{
+    color: #0f1923;
+    font-size: 50px;
+    
+    padding: 1rem;
+    font-family: monospace;
+}
+
+body{
+background-color: #ece8e1;
+}
+
+footer {
+    background-color:#0f1923;
+}
+.footer {
+    padding: 4rem;
+    font-family: monospace;
+}
+
+
+section.news-1 {
+    display: flex;
+    flex-grow: 1;
+    margin: 1% 4% 1% 4%;
+  
+}
+
+section.news-2 {
+    display: flex;
+    flex-grow: 1;
+  
+}
+
+.news-banner-principal {
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.agente-semanal {
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+img.imagen-noticia {
+    width: 40%;
+   
+}
+
+img.imagen-agente-news {
+    width: 40%;
+}
+
+p.texto-news-1 {
+    margin: 0% 12% 0 0%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.texto-news-2 {
+    margin: 0% 12% 0 0%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul.menu-interno {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style-type: none;
+    color: #ece8e1;
+    padding: 2rem;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgb(255, 48, 64);
+
+
+}
