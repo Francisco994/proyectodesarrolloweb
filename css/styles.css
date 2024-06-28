@@ -73,12 +73,24 @@ section.news-2 {
     padding: 3rem;
     display: flex;
     gap: 3rem;
+    border: 2px solid;
+    border-radius: 2rem;
 }
 
 .agente-semanal {
     padding: 3rem;
     display: flex;
     gap: 3rem;
+    border: 2px solid;
+    border-radius: 2rem;
+}
+
+section.news-3 {
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+    border: 2px solid;
+    border-radius: 2rem;
 }
 
 img.imagen-noticia {
@@ -114,4 +126,17 @@ ul.menu-interno {
     background-color: rgb(255, 48, 64);
 
 
+}
+
+section.valorant-bannerinicio {
+    text-align: center;
+    
+}
+
+.carousel-item.active {
+    text-align: center;
+}
+
+section.titulo-clips {
+    background-color: black;
 }
