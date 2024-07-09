@@ -120,16 +120,16 @@ ul.menu-interno {
     gap: 1.5rem;
     list-style-type: none;
     color: #ece8e1;
-    padding: 2rem;
+    padding: 1rem;
     font-family: monospace;
     font-size: 20px;
     background-color: rgb(255, 48, 64);
-
-
+    margin: auto;
 }
 
 section.valorant-bannerinicio {
     text-align: center;
+    margin-bottom: 2rem;
     
 }
 
@@ -139,4 +139,80 @@ section.valorant-bannerinicio {
 
 section.titulo-clips {
     background-color: black;
+}
+
+img.banner-principal-paginas {
+    width: 100%;
+}
+
+.listas-footer {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    font-family: monospace;
+}
+
+ul.columna-footer {
+    padding: 1rem;
+    color: #d6d5d2;;
+    list-style: none;
+    font-family: monospace;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h5.titulo-columnas-footer {
+    margin-bottom: 3rem;
+}
+
+li.lista-1 {
+    font-size: medium;
+    margin-bottom: .5rem;
+}
+
+.promociones {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+section.sector-promo {
+    border-bottom: .2rem solid #ece8e1;
+    color: #d6d5d2;
+    font-family: monospace;
+}
+
+h5.titulo-columnas-redes {
+    margin-top: 5rem;
+    color: #d6d5d2;
+}
+
+footer.footervalorant {
+    margin-top: 8rem;
+}
+
+section.sector-derechos {
+    border-top: .2rem solid #ece8e1;
+    color: #d6d5d2;
+    font-family: monospace;
+}
+
+.derechos1 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container-tarjetas {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.tarjetas {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
