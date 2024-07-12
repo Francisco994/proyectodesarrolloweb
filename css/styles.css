@@ -266,3 +266,76 @@ h2.valorant-titulo-news {
         margin: 2rem 20rem 2rem 20rem;
         text-align: center;
     }
+
+img.logo-riotgames {
+    width: 50%;
+}
+
+section.logo-pagina {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+       
+}
+
+.riotgames-logo {
+    width: 120px;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.riotgames-logoprincipal {
+    text-align: center;
+    width: 100px;
+}
+
+img.logo-riotgamevalo {
+    width: 60%;
+}
+
+.riotgames-logo {
+    width: 104px;
+    text-align: center;
+    margin-right: 340px;
+}
+
+.formulario {
+
+    width: 600px;
+    background: #d6d5d2;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+    border-radius: 1rem;
+    box-shadow: 7px 13px 28px #6b6969;
+    
+}    
+
+.controles {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid;
+}
+
+.formulario p{
+
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.formulario .boton {
+
+    width: 100%;
+    padding: 14px;
+    margin-top: 1rem;
+    text-align: center;
+    
+
+
+
+
+}
