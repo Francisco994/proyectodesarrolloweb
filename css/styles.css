@@ -333,9 +333,34 @@ img.logo-riotgamevalo {
     padding: 14px;
     margin-top: 1rem;
     text-align: center;
-    
 
+}
 
+.conteiner-noticias {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
 
+section.seccion-noticias {
+    width: 100%;
+}
+.tarjetas-noticias {
+    width: 500px;
+}
 
+img.imagen-noticias {
+    margin-bottom: 1rem;
+}
+
+.conteiner-clips {
+    width: 100%;
+}
+.seccion-clips {
+    text-align: center;
+    margin: 0rem 10rem 4rem 10rem;
+    padding: 2rem;
+    background: lightgray;
 }
