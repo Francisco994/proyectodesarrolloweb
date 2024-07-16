@@ -364,3 +364,108 @@ img.imagen-noticias {
     padding: 2rem;
     background: lightgray;
 }
+.redes-sociales {
+    padding: 1rem;
+}
+
+    /* css responsive */
+   
+
+@media (max-width: 64em) {
+    section.logo-pagina {
+        display: block;
+    }
+
+    h1 {
+        color: #ece8e1;
+        font-size: 50px;
+        text-align: center;
+        padding: 1rem;
+        font-family: "valorant-font";
+    }
+
+    ul.menu-interno {
+        display: block;
+        justify-content: center;
+        gap: 1.5rem;
+        list-style-type: none;
+        color: #ece8e1;
+        padding: 1rem;
+        font-family: monospace;
+        font-size: 20px;
+        background-color: rgb(255, 48, 64);
+        margin: auto;
+        text-align: center;
+    }
+
+    .texto-introduccion {
+        margin: auto !important;
+        text-align: center;
+        padding: 3rem;
+    }
+    .news-banner-principal {
+        padding: 3rem;
+        display: block;
+        gap: 3rem;
+        border: 2px solid;
+        border-radius: 1rem;
+        background-color: #0f1923;
+    }
+    .listas-footer {
+        display: block !important;
+        justify-content: center;
+        gap: 12rem;
+        font-family: monospace;
+    }
+    .tarjetas-noticias {
+        width: 100%;
+        padding: 1rem;
+    }
+    img.imagen-noticias {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .formulario {
+        background: #d6d5d2;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        box-shadow: 7px 13px 28px #6b6969;
+        width: 100%;
+    }
+    .riotgames-logoprincipal {
+        text-align: center;
+        width: 31%;
+        margin: auto;
+        
+    }
+    .riotgames-logo {
+        width: 22%;
+        text-align: center;
+        margin-right: 340px;
+        margin: auto;
+    }
+    section.logo-pagina {
+        display: block;
+        
+        padding: 1rem;
+    }
+    img.logo-riotgames {
+        width: 50%;
+        margin-top: 1rem;
+    }
+    iframe {
+        width: 361px;
+        height: 200px;
+        /* text-align: center; */
+    }
+    .seccion-clips {
+        text-align: center;
+        margin: 0rem 0rem 0rem 0rem; 
+        padding: 1rem;
+        background: lightgray;
+        margin-bottom: 2rem;
+        border-block: 1rem;
+    }
+}
